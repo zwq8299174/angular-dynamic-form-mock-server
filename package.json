@@ -1,0 +1,25 @@
+{
+  "name": "angular-dynamic-form-mock-server",
+  "version": "0.1.0",
+  "description": "Angular动态表单模拟服务",
+  "main": "index.js",
+  "scripts": {
+    "server": "node .",
+    "pm2": "pm2 start ../mbss-mock-server --watch",
+    "mk": "node ./make_index_md.js > index.md",
+    "mkinf": "node ./make_interface_xml.js > IPU/server-interface.xml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zwq8299174",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-parse-json": "^1.0.1",
+    "koa-router": "^5.4.0",
+    "mockjs": "^1.0.1-beta3",
+    "shelljs": "^0.7.6"
+  },
+  "service-dirs": [
+    "mockService"
+  ]
+}
