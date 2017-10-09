@@ -136,26 +136,6 @@ exports.service = function*(next) {
 										id: 4,
 										display: '10-30次/周',
 										val: '10-50Week'
-									},
-									{
-										id: 5,
-										display: '30-50次/周',
-										val: '>50Week'
-									},
-									{
-										id: 6,
-										display: '50-80次/周',
-										val: '>50Week'
-									},
-									{
-										id: 7,
-										display: '80-100次/周',
-										val: '>50Week'
-									},
-									{
-										id: 8,
-										display: '>100次/周',
-										val: '>50Week'
 									}
 								]
 							},
@@ -301,6 +281,6 @@ exports.service = function*(next) {
 						]
 					}]
 				})
-			}
-			yield next;
-		};
+		}
+	yield next;
+};

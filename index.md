@@ -6,4 +6,5 @@
 =======================
 服务路径 ( service-path ) | 服务名称标题 ( service-title )
 -------------------------|---------------------------
+[undefined](mockService/dataTable.js) | 数据表格
 [undefined](mockService/dynamicForm.js) | 动态表单
